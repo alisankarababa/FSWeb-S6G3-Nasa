@@ -1,0 +1,9 @@
+.sec-main {
+    margin: 2em;
+    font-size: 1rem;
+}
+
+.sec-main > h2{
+    font-size: 2em;
+    color: white;
+}

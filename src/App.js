@@ -1,13 +1,21 @@
 import React from "react";
 import "./App.css";
+import Header from "./layout/Header/Header";
+import Seperator from "./layout/Seperator/Seperator";
+import Main from "./layout/Main/Main";
+import Gallery from "./layout/Gallery/Gallery";
+
+
+const appTitle = "ASTRONOMY PICTURE OF THE DAY"
 
 function App() {
   return (
     <div className="App">
-      <p>
-        NASA uygulamasını yapmak için README.md dosyasıdaki talimatları takip edin
-		İyi eğlenceler! <span role="img" aria-label='go!'>🚀</span>!
-      </p>
+        <Header title={appTitle}/>
+        <Seperator/>
+        <Main/>
+        <Seperator/>
+        <Gallery/>
     </div>
   );
 }
